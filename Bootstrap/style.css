@@ -1,0 +1,60 @@
+body{
+	background-image: url(css/back.jpg);
+ 	background-position: center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+  
+}
+
+div.container{
+	font-size: 18px;
+}
+div.a {
+	font-weight: bold;
+	font-size: 50px;
+	font-family: "Lucida console";
+  	color: #fff;
+  	text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  border-radius: 50%;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+div.b{
+	padding-left: 50px;
+	padding-right: 100px;
+	
+}
+
+div.container_reflection{
+	font-size: 18px;
+
+  color: #e0dfdc;
+  letter-spacing: .1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+
+
+}
+div.modal-body{
+	font-size: 18px;
+}
+div.carousel-inner{
+
+	
+}
+}
+
+}
+
+
+
